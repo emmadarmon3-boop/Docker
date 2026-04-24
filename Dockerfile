@@ -1,7 +1,7 @@
 FROM python:3.11-slim
 
 WORKDIR /app
-COPY hello.py .
+COPY . .
 
 # On définit une variable d'environnement par défaut
 ENV USER_NAME="Apprenti DevSecOps"
